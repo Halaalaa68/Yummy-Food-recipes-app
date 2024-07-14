@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Yummy</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body class="bg-black">
+    <div class="position-fixed h-100 my-nav row row-cols-5"> 
+        <div class="bg-black w-75 position-relative d-flex flex-column justify-content-between text-white black-nav">
+           <div class="ps-4 pt-4 position-relative content">
+              <p><a href="search.html" class="text-white text-decoration-none">Search</a></p>
+              <p><a href="category.html" class="text-white text-decoration-none">Categories</a></p>
+              <p><a href="area.html" class="text-white text-decoration-none">Area</a></p>
+              <p><a href="ingr.html" class="text-white text-decoration-none">Ingredients</a></p>
+              <p><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></p>
+           </div>
+           <div class="ps-4 pt-4">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe fs-6 pb-1"></i>
+              <p>Copyright Â© 2019 All Rights Reserved.</p>
+           </div>
+        </div>
+        <div class="d-flex flex-column justify-content-between align-items-center pt-3 pb-3 w-25">
+           <img src="logo.png" class="w-100" alt="logo yummy">
+           <i class="fa-solid fa-bars fs-2 pointer" id="menu"></i>
+           <div class="d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-solid fa-globe fs-6 pb-1"></i>
+              <i class="fa-solid fa-share-nodes fs-6"></i>
+           </div>
+        </div>
+     </div>
+    <form>
+        <div class="container mt-5 vh-100 d-flex align-items-center">
+            <div class="row flex-wrap w-75 m-auto">
+                <div class="mb-3 col-md-6 col-9 m-auto name">
+                    <input type="text" placeholder="Enter Your Name" class="form-control" id="name" aria-describedby="emailHelp">
+                    <div class="bg-danger-subtle p-3 mt-2 rounded-3 d-none text-center text-danger">
+                        Enter a valid Name
+                    </div>
+                  </div>
+                  <div class="mb-3 col-md-6 col-9 m-auto email">
+                    <input type="email" placeholder="Enter Your Email" class="form-control" id="email">
+                    <div class="bg-danger-subtle p-3 mt-2 rounded-3 d-none text-center text-danger">
+                        Enter a valid Email
+                    </div>
+                  </div>
+                  <div class="mb-3 col-md-6 col-9 m-auto phone">
+                    <input type="tel" placeholder="Enter Your Phone" class="form-control" id="phone">
+                    <div class="bg-danger-subtle p-3 mt-2 rounded-3 d-none text-center text-danger">
+                        Enter a valid Number
+                    </div>
+                  </div>
+                  <div class="mb-3 col-md-6 col-9 m-auto age">
+                    <input type="number" placeholder="Enter Your Age" class="form-control" id="age">
+                  </div>
+                  <div class="mb-3 col-md-6 col-9 m-auto pass">
+                    <input type="password" placeholder="Enter Your Password" class="form-control" id="password">
+                    <div class="bg-danger-subtle p-3 mt-2 rounded-3 d-none text-center text-danger">
+                        password must contain minimum eight characters, at least one letter, one number and one special character
+                    </div>
+                  </div>
+                  <div class="mb-3 col-md-6 col-9 m-auto repass">
+                    <input type="password" placeholder="Repassword" class="form-control" id="password2">
+                    <div class="bg-danger-subtle p-3 mt-2 rounded-3 d-none text-center text-danger">
+                        It is not the same Password
+                    </div>
+                  </div>
+                  <button type="button" class="btn border border-danger text-danger opacity-75 col-md-1 col-4 m-auto">Submit</button>
+            </div>
+        </div>
+        
+    </form>
+      <script src="jquery-3.7.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/contact.js"></script>
+</body>
+</html>
